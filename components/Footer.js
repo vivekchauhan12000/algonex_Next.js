@@ -1,8 +1,8 @@
 const Footer=()=>{
 return(
-  <div>
-    <h3>Copywrite reserves</h3>
-  </div>
+  <footer>
+    <h3>Copyrights 2021 AlgoNoob reserves</h3>
+  </footer>
 );
 }
 export default Footer

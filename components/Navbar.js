@@ -1,10 +1,12 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar=()=>{
   return(
     <nav>
       <div className="logo">
-        <h2>Algonex</h2>
+        <Image src="/logo.png" width={128} height={120}/>
+        <h2>Algonoob</h2>
         </div>
         <Link href="/"><a>Home</a></Link>
         <Link href="/about"><a>about</a></Link>
